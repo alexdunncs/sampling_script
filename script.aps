@@ -1,0 +1,109 @@
+# SPARTAN Station Script v1.1
+# MAIA_3_week_pre_launch
+# ###########################
+
+#######################
+# #######################################
+WAIT TO 09:00
+
+# FILTER 1 
+# Sample PM2.5
+FILTER USE 1
+PUMP ON
+WAIT 24H
+PUMP OFF
+WAIT 15S
+
+# Wait 2 days
+FILTER USE 1
+WAIT 47H 
+WAIT 59M
+WAIT 44S
+
+
+# FILTER 2
+# Sample PM2.5
+FILTER USE 2
+PUMP ON
+WAIT 24H
+PUMP OFF
+WAIT 15S
+
+# Wait 2 days
+FILTER USE 2
+WAIT 47H 
+WAIT 59M
+WAIT 44S
+
+
+# FILTER 3
+# Sample PM2.5
+FILTER USE 3
+PUMP ON
+WAIT 24H
+PUMP OFF
+WAIT 15S
+
+# Wait 2 days
+FILTER USE 3
+WAIT 47H 
+WAIT 59M
+WAIT 44S
+
+
+# FILTER 4
+# Sample PM2.5
+FILTER USE 4
+PUMP ON
+WAIT 24H
+PUMP OFF
+WAIT 15S
+
+# Wait 2 days
+FILTER USE 4
+WAIT 47H 
+WAIT 59M
+WAIT 44S
+
+
+# FILTER 5
+# Sample PM2.5
+FILTER USE 5
+PUMP ON
+WAIT 24H
+PUMP OFF
+WAIT 15S
+
+# Wait 2 days
+FILTER USE 5
+WAIT 47H 
+WAIT 59M
+WAIT 44S
+
+
+# FILTER 6
+# Sample PM2.5
+FILTER USE 6
+PUMP ON
+WAIT 24H
+PUMP OFF
+WAIT 15S
+
+# Wait 2 days
+FILTER USE 6
+WAIT 47H 
+WAIT 59M
+WAIT 44S
+
+
+# FILTER 8
+# Sample PM2.5
+FILTER USE 8
+PUMP ON
+WAIT 24H
+PUMP OFF
+WAIT 15S
+
+
+
+# END OF SAMPLING
